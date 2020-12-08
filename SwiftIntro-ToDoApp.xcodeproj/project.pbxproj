@@ -12,6 +12,8 @@
 		44E99633257F21D200D2693F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E99632257F21D200D2693F /* ViewController.swift */; };
 		44E99638257F21D300D2693F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E99637257F21D300D2693F /* Assets.xcassets */; };
 		44E9963B257F21D300D2693F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E99639257F21D300D2693F /* LaunchScreen.storyboard */; };
+		44E99647257FEAF200D2693F /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E99646257FEAF200D2693F /* ToDoItem.swift */; };
+		44E9964A257FEB3500D2693F /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E99649257FEB3500D2693F /* ToDoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		44E99637257F21D300D2693F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44E9963A257F21D300D2693F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44E9963C257F21D300D2693F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E99646257FEAF200D2693F /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		44E99649257FEB3500D2693F /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				44E99637257F21D300D2693F /* Assets.xcassets */,
 				44E99639257F21D300D2693F /* LaunchScreen.storyboard */,
 				44E9963C257F21D300D2693F /* Info.plist */,
+				44E99646257FEAF200D2693F /* ToDoItem.swift */,
+				44E99649257FEB3500D2693F /* ToDoList.swift */,
 			);
 			path = "SwiftIntro-ToDoApp";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			files = (
 				44E99633257F21D200D2693F /* ViewController.swift in Sources */,
 				44E9962F257F21D200D2693F /* AppDelegate.swift in Sources */,
+				44E9964A257FEB3500D2693F /* ToDoList.swift in Sources */,
+				44E99647257FEAF200D2693F /* ToDoItem.swift in Sources */,
 				44E99631257F21D200D2693F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
