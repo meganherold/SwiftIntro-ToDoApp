@@ -24,7 +24,11 @@ class ToDoList {
         "Urgent": .red
     ]
     
-    private init() { }
+    private init() {
+        addItem(ToDoItem(title: "Pet Store", notes: "Dog Treats", tag: "Home"))
+        addItem(ToDoItem(title: "Deployment", notes: "Lobby 3.8.2", tag: "Work"))
+        addItem(ToDoItem(title: "Schedule Dentist Appointment", notes: "Teeth point", tag: "Urgent"))
+    }
     
     func addItem(_ item: ToDoItem) {
         toDoItems.append(item)
